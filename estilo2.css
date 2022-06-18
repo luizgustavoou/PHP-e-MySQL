@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+}
+div.box {
+    background: rgb(16, 139, 255);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.elemento {
+    height: 35vh;
+    width: 35vw;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+label {
+    display: block;
+    padding: 5px;
+}

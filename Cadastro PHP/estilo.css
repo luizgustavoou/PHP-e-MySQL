@@ -1,0 +1,22 @@
+div.container {
+    width: 100vw; /* definimos as dimensões do container como 100% da largura (width) e altura (height) da página. Para isso, utilizamos as unidades vw e vh das CSS3, que representam, respectivamente, a largura e a altura da viewport; */
+    height: 100vh;
+    background: rgb(39, 173, 226);
+    display: flex; /* definimos a propriedade display do container como flex. Essa é a configuração que faz com que, de fato, a div utilize o recurso de layout flexível (Flexbox); */
+    flex-direction: row; /* com a propriedade flex-direction, fazemos com que os itens internos sejam dispostos horizontalmente, ou seja, em forma de linha (row); */
+    justify-content: center; /* configuramos a disposição dos elementos internos como centralizados na direção definida na propriedade anterior, ou seja, os itens ficarão no centro da linha (horizontalmente); */
+    align-items: center /* com a propriedade align-items definida como center, fazemos com que os elementos internos sejam também alinhados na vertical; */
+}
+
+div.box {
+    width: 300px; /*dimensões fixas.*/
+    height: 300px; /*dimensões fixas.*/
+    background: white;
+    padding: 20px;
+    border-radius: 8%;
+}
+
+body {
+    margin: 0px; /* removemos as margens do corpo do documento, fazendo assim com que a div container ocupe toda a página.*/
+}
+
